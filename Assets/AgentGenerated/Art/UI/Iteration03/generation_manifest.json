@@ -1,0 +1,13 @@
+{
+  "provider": "OpenAI built-in image_gen",
+  "date": "2026-08-21",
+  "use_case": "ui-mockup",
+  "original": true,
+  "copied_game_ui": false,
+  "assets": [
+    {"file": "hud_player_frame.png", "source_output": "exec-02fe8a61-d47b-4b8a-81e7-c938c0a3d6ee.png", "role": "player frame, portrait aperture, nameplate and HP channel"},
+    {"file": "hud_hp_fill.png", "source_output": "exec-38b68aef-a9c5-49b3-a048-19629b68b54c.png", "role": "green segmented HP fill"},
+    {"file": "hud_status_plaque.png", "source_output": "exec-83562ef1-4408-4039-82ed-88ed917fed29.png", "role": "enemy count, encounter and completion status backplate"}
+  ],
+  "constraints": "Original bronze, carved-wood, gold and red-lacquer late-1990s arcade HUD; transparent alpha; no baked text, logo, copied screenshot or character portrait."
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a622047cb874b42b6852dc312d331c, type: 3}
+  m_Name: ATK_DIA_ParryCounter
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.AttackData
+  actionId: ParryCounter
+  animationState: ParryCounter
+  priority: 50
+  startup: 0.18
+  active: 0.24
+  recovery: 0.44
+  cooldown: 0
+  damage: 32
+  rangeX: 2.55
+  rangeDepth: 0.78
+  knockbackX: 1.05
+  knockbackDepth: 0.08
+  hitStop: 0.04
+  forwardMove: 0
+  lockGroundPosition: 1
+  visualOffset: {x: 0, y: 0}

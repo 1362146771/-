@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-21T04:02:10.449192+00:00",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Continue the exact same original late-1990s Three Kingdoms arcade belt-scrolling background shown in the reference, same sunset sky, palette, pixel scale, side-view camera and lighting. Section two inside the fortified military camp: layered timber watchtowers, stone ramparts, red banners, braziers, weapon racks and weathered wide combat courtyard path, distant mountain fortress, coherent left and right edges for horizontal scrolling. High-detail hand-painted pixel art. Environment only, no people, no characters, no text, no logo, no user interface, no modern objects.",
+  "negativePrompt": "characters, soldiers, people, UI, HUD, text, letters, logo, watermark, photorealistic, 3D render, modern building, vehicle, blurry, low detail",
+  "size": "1664*928",
+  "promptExtend": true,
+  "seed": null,
+  "requestId": "641481d5-6a2a-9446-9273-e80133ce250b",
+  "assetPath": "Art/Backgrounds/Iteration02/fortress_courtyard.png",
+  "referenceImages": [
+    "Art/Backgrounds/Iteration02/fortress_approach.png"
+  ]
+}

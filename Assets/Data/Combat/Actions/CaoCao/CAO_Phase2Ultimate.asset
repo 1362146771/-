@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: CAO_Phase2Ultimate
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: Phase2Ultimate
+  ownerId: CaoCao
+  displayName: Phase2Ultimate
+  category: 3
+  animation: {fileID: 7400000, guid: 023a416885cb5264384f53f6efd82a29, type: 2}
+  animatorState: Phase2Ultimate
+  loop: 0
+  lockGroundPosition: 1
+  framesPerSecond: 12.500001
+  frameCount: 43
+  startupEndFrame: 8
+  activeEndFrame: 28
+  recoveryEndFrame: 42
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 8
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 4.971429, y: 0.25}
+    - {x: 4.971429, y: 1.457143}
+    - {x: 0.35, y: 1.7}
+  - frame: 9
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.0542855, y: 0.25}
+    - {x: 5.0542855, y: 1.4814286}
+    - {x: 0.35, y: 1.7}
+  - frame: 10
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.137143, y: 0.25}
+    - {x: 5.137143, y: 1.5057143}
+    - {x: 0.35, y: 1.7}
+  - frame: 11
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.2200003, y: 0.25}
+    - {x: 5.2200003, y: 1.53}
+    - {x: 0.35, y: 1.7}
+  - frame: 12
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.3028574, y: 0.25}
+    - {x: 5.3028574, y: 1.5542858}
+    - {x: 0.35, y: 1.7}
+  - frame: 13
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.3857145, y: 0.25}
+    - {x: 5.3857145, y: 1.5785714}
+    - {x: 0.35, y: 1.7}
+  - frame: 14
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.4685717, y: 0.25}
+    - {x: 5.4685717, y: 1.6028572}
+    - {x: 0.35, y: 1.7}
+  - frame: 15
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.551429, y: 0.25}
+    - {x: 5.551429, y: 1.6271429}
+    - {x: 0.35, y: 1.7}
+  - frame: 16
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.634286, y: 0.25}
+    - {x: 5.634286, y: 1.6514286}
+    - {x: 0.35, y: 1.7}
+  - frame: 17
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.717143, y: 0.25}
+    - {x: 5.717143, y: 1.6757143}
+    - {x: 0.35, y: 1.7}
+  - frame: 18
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.8, y: 0.25}
+    - {x: 5.8, y: 1.7}
+    - {x: 0.35, y: 1.7}
+  - frame: 19
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.717143, y: 0.25}
+    - {x: 5.717143, y: 1.6757143}
+    - {x: 0.35, y: 1.7}
+  - frame: 20
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.634286, y: 0.25}
+    - {x: 5.634286, y: 1.6514286}
+    - {x: 0.35, y: 1.7}
+  - frame: 21
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.551429, y: 0.25}
+    - {x: 5.551429, y: 1.6271429}
+    - {x: 0.35, y: 1.7}
+  - frame: 22
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.4685717, y: 0.25}
+    - {x: 5.4685717, y: 1.6028572}
+    - {x: 0.35, y: 1.7}
+  - frame: 23
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.3857145, y: 0.25}
+    - {x: 5.3857145, y: 1.5785714}
+    - {x: 0.35, y: 1.7}
+  - frame: 24
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.3028574, y: 0.25}
+    - {x: 5.3028574, y: 1.5542858}
+    - {x: 0.35, y: 1.7}
+  - frame: 25
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.2200003, y: 0.25}
+    - {x: 5.2200003, y: 1.53}
+    - {x: 0.35, y: 1.7}
+  - frame: 26
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.137143, y: 0.25}
+    - {x: 5.137143, y: 1.5057143}
+    - {x: 0.35, y: 1.7}
+  - frame: 27
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.0542855, y: 0.25}
+    - {x: 5.0542855, y: 1.4814286}
+    - {x: 0.35, y: 1.7}
+  - frame: 28
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 4.971429, y: 0.25}
+    - {x: 4.971429, y: 1.457143}
+    - {x: 0.35, y: 1.7}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 93c68857ebea1664d8ed3129795ce6db, type: 3}
+  - {fileID: 21300000, guid: 1ada390f12877054581068a9fc2cb001, type: 3}
+  - {fileID: 21300000, guid: 87ada24b531096945918696046de22ee, type: 3}
+  - {fileID: 21300000, guid: bd71863448171444483b9fcd6dcbc24d, type: 3}
+  - {fileID: 21300000, guid: de153d1c03f9da940ae9e8bfcdbb0f9b, type: 3}
+  - {fileID: 21300000, guid: e2e51a95260322c4f8d96273346ba968, type: 3}
+  - {fileID: 21300000, guid: ab00a1c02970d2b4192441bbf7107d10, type: 3}
+  - {fileID: 21300000, guid: e7856d0a2f892a849b4ac29c601f9d96, type: 3}
+  - {fileID: 21300000, guid: d65a0df904bf7654aa5ed85ce0565090, type: 3}
+  - {fileID: 21300000, guid: b30663ac5d8320f47aa327b651f7c5a0, type: 3}
+  - {fileID: 21300000, guid: 7da29c858641b59469122598032e1981, type: 3}
+  - {fileID: 21300000, guid: 6b7f0202e7bb2054c976e76e8a56a7e7, type: 3}
+  - {fileID: 21300000, guid: fd4ebb277630a44469a58889e9373965, type: 3}
+  - {fileID: 21300000, guid: ddbbc970a1afb7e4bb10d006932127e3, type: 3}
+  - {fileID: 21300000, guid: 67597651ce2594b46824238bbc189c21, type: 3}
+  - {fileID: 21300000, guid: c6f41aef5dc00f64098886a2e943856b, type: 3}
+  - {fileID: 21300000, guid: fdc364f6e6c98784885ef57a6462ad00, type: 3}
+  - {fileID: 21300000, guid: e0b528c421371c441b1c6e07673ce73e, type: 3}
+  - {fileID: 21300000, guid: 217d2d0310d600a4dbc4c4a415683b82, type: 3}
+  - {fileID: 21300000, guid: 5fc61c01b097fc44da61fcb96e1804db, type: 3}
+  - {fileID: 21300000, guid: 643666c0dba2615408832688b11038e0, type: 3}
+  - {fileID: 21300000, guid: 52c796da89fa28942a33b272d28a4b77, type: 3}
+  - {fileID: 21300000, guid: 70b67a863a45f9a45bea1d63dea9cda1, type: 3}
+  - {fileID: 21300000, guid: 140013b95a20d844bbc3828a710f4681, type: 3}
+  - {fileID: 21300000, guid: 1bfb32101dfa6784eb7e46a2c60fadd7, type: 3}
+  - {fileID: 21300000, guid: 8502ccfb5bbfa874fa0d2d5f08d4f6fb, type: 3}
+  - {fileID: 21300000, guid: 0f464a857d5cb2b4d82750fbb1fa7753, type: 3}
+  - {fileID: 21300000, guid: d57db6ab8f98eec4b8b941a2e92086d5, type: 3}
+  - {fileID: 21300000, guid: 68784a254e05af145948c48f382c6049, type: 3}
+  - {fileID: 21300000, guid: c375b62a9fb8d724b9cf6d96face1f86, type: 3}
+  - {fileID: 21300000, guid: 7e6943b2f2289784e883c32b5274c3cf, type: 3}
+  - {fileID: 21300000, guid: d1b26f21169b3424093a64644a3c8447, type: 3}
+  - {fileID: 21300000, guid: 6ed5e157d7a096c4e9828718e3c6b673, type: 3}
+  - {fileID: 21300000, guid: 52afa052fc5887d45816be06e216d733, type: 3}
+  - {fileID: 21300000, guid: 2a161d768a6d40145bd37b55045e1398, type: 3}
+  - {fileID: 21300000, guid: 978da89f1da194f4ebe4b3ea8a66cc0e, type: 3}
+  - {fileID: 21300000, guid: 00d5da01f57c7e34e991f293de1249ec, type: 3}
+  - {fileID: 21300000, guid: 71b8117b9bb25ee4abf812d3c1789bd8, type: 3}
+  - {fileID: 21300000, guid: bf93dbba11e724748a3d259f36891325, type: 3}
+  - {fileID: 21300000, guid: 077b81ea1e22a36428eb2b88c07a6a8f, type: 3}
+  - {fileID: 21300000, guid: 0c7b442d2c50319419af0759aadb09b2, type: 3}
+  - {fileID: 21300000, guid: cd70f0f9b62061a4bae95b2a31dbdab8, type: 3}
+  - {fileID: 21300000, guid: f3a82e732692d89429af31b9b8734d13, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 50
+    hitStop: 0.045
+    hitStun: 0.2
+    knockbackX: 1.5
+    knockbackDepth: 0.1
+    cooldown: 7
+    priority: 30
+    invulnerability: 0
+    superArmor: 1
+    hitPolicy: 0
+    repeatInterval: 0.15
+    broadPhaseDepth: 1.25
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 1
+    usageWeight: 0.28
+    minDistance: 0
+    maxDistance: 5.8
+    depthTolerance: 1.25
+    cooldown: 7
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 11400000, guid: 54197f7de91798d49b3686b836796146, type: 2}

@@ -1,0 +1,15 @@
+{
+  "name": "ThreeKingdoms.Tests.EditMode",
+  "rootNamespace": "ThreeKingdoms.Tests.EditMode",
+  "references": ["ThreeKingdoms.Runtime", "ThreeKingdoms.BattleEditor.Editor"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

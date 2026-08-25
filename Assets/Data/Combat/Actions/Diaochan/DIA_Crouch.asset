@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: DIA_Crouch
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: Crouch
+  ownerId: Diaochan
+  displayName: Crouch
+  category: 0
+  animation: {fileID: 7400000, guid: 50ef0a076e1a111489c2d27e3cf3d51a, type: 2}
+  animatorState: Crouch
+  loop: 0
+  lockGroundPosition: 0
+  framesPerSecond: 6.122449
+  frameCount: 5
+  startupEndFrame: 2
+  activeEndFrame: 3
+  recoveryEndFrame: 4
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes: []
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 4b5532df5f07e024dbcc80e73602d03f, type: 3}
+  - {fileID: 21300000, guid: e0d76e47b115f1747918e0fc39e76a65, type: 3}
+  - {fileID: 21300000, guid: 363f59182212fa84e92d4ed5b8c927ac, type: 3}
+  - {fileID: 21300000, guid: b8c2b768043b66d489492a734ac03c16, type: 3}
+  - {fileID: 21300000, guid: b8c2b768043b66d489492a734ac03c16, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 10
+    hitStop: 0.035
+    hitStun: 0.2
+    knockbackX: 0.45
+    knockbackDepth: 0.1
+    cooldown: 0
+    priority: 10
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 0
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.75
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.5
+    depthTolerance: 0.75
+    cooldown: 1
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 0}

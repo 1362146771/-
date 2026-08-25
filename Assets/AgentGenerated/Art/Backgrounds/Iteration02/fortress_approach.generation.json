@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-08-21T03:58:32.017461+00:00",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Original late-1990s Three Kingdoms arcade belt-scrolling game background, side view, ancient Chinese mountain fortress frontier, section one fortress approach, distant layered blue-gray mountains and cloudy sky, tall dark wooden palisade, stone walls, red military banners, warm lantern fire, weathered ground path, high-detail hand-painted pixel art, dramatic dusk lighting, coherent horizontal composition, no people, no characters, no text, no logo, no user interface, no modern objects",
+  "negativePrompt": "characters, soldiers, people, UI, HUD, text, letters, logo, watermark, photorealistic, 3D render, modern building, vehicle, blurry, low detail",
+  "size": "1664*928",
+  "promptExtend": true,
+  "seed": null,
+  "requestId": "4bfc3c84-7930-9a2d-97e6-dd852879b18e",
+  "assetPath": "Art/Backgrounds/Iteration02/fortress_approach.png",
+  "referenceImages": []
+}

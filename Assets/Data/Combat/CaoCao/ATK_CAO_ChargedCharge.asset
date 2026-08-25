@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a622047cb874b42b6852dc312d331c, type: 3}
+  m_Name: ATK_CAO_ChargedCharge
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.AttackData
+  actionId: ChargedCharge
+  animationState: ChargedCharge
+  priority: 30
+  startup: 0.45
+  active: 0.55
+  recovery: 0.32
+  cooldown: 1.8
+  damage: 28
+  rangeX: 4.6
+  rangeDepth: 0.82
+  knockbackX: 1.3
+  knockbackDepth: 0.1
+  hitStop: 0.045
+  forwardMove: 3
+  lockGroundPosition: 0
+  visualOffset: {x: 0, y: 0}

@@ -1,0 +1,19 @@
+{
+  "name": "ThreeKingdoms.Tests.PlayMode",
+  "rootNamespace": "ThreeKingdoms.Tests.PlayMode",
+  "references": [
+    "ThreeKingdoms.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

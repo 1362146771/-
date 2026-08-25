@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: CAO_Entrance
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: Entrance
+  ownerId: CaoCao
+  displayName: Entrance
+  category: 7
+  animation: {fileID: 7400000, guid: 2746c079bf71f104d90d86a85de9ecc9, type: 2}
+  animatorState: Entrance
+  loop: 0
+  lockGroundPosition: 0
+  framesPerSecond: 10
+  frameCount: 47
+  startupEndFrame: 14
+  activeEndFrame: 31
+  recoveryEndFrame: 46
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes: []
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 763f57b35f0a21645899fba83c16626a, type: 3}
+  - {fileID: 21300000, guid: 183eab451258f3e44aab153778ab2346, type: 3}
+  - {fileID: 21300000, guid: a7d9e5dbee2f64543833a5c199fcf434, type: 3}
+  - {fileID: 21300000, guid: fe0186ab1575bc341b1883b4c58729a5, type: 3}
+  - {fileID: 21300000, guid: c329a9b396c629943ab16f2b40dd7085, type: 3}
+  - {fileID: 21300000, guid: c03d603f07cfe3146b411e72544a261d, type: 3}
+  - {fileID: 21300000, guid: a5f0e343a0b90594c92a01c078405f9e, type: 3}
+  - {fileID: 21300000, guid: ec9fe2adc98cab74b9a13db5cbdb767b, type: 3}
+  - {fileID: 21300000, guid: fc620840e0a28944e975ea161ae3a417, type: 3}
+  - {fileID: 21300000, guid: 274a0752a1e5d244580e462c6f2f09e7, type: 3}
+  - {fileID: 21300000, guid: 63c0740a275532b42a64283720332528, type: 3}
+  - {fileID: 21300000, guid: d00ecd0eaa6c93a4098bb7142fc2272b, type: 3}
+  - {fileID: 21300000, guid: bf7ad0f8839ebe14cb769d58f5dcfbd8, type: 3}
+  - {fileID: 21300000, guid: b99fbeb4fe788754cac57ea485329e4d, type: 3}
+  - {fileID: 21300000, guid: 3bb9d25c79a1e6a4292d2c2c264f40d7, type: 3}
+  - {fileID: 21300000, guid: 38141a3f06de4aa498be3bec33bfd75b, type: 3}
+  - {fileID: 21300000, guid: 567e321b2b12c50409a1b6b86e34351f, type: 3}
+  - {fileID: 21300000, guid: 84f19056e0526d249b2a39db19ded7d6, type: 3}
+  - {fileID: 21300000, guid: 6c41f1beedeabe347a6ef284167cec1b, type: 3}
+  - {fileID: 21300000, guid: 4891211e7e1efec4ebdc6b6ec03b6110, type: 3}
+  - {fileID: 21300000, guid: a7093a5355f41074889bf813f023430d, type: 3}
+  - {fileID: 21300000, guid: 1005b3faad5add444833646f7d97a911, type: 3}
+  - {fileID: 21300000, guid: 53bcd946ed14dd64c9f6d6602fb5b495, type: 3}
+  - {fileID: 21300000, guid: 4044a1c815612df48bb7443d05988e38, type: 3}
+  - {fileID: 21300000, guid: c08d59670647fdc44a53d995fee6f44c, type: 3}
+  - {fileID: 21300000, guid: 59e6cac335c3ddc4899c5aa9f3211a3d, type: 3}
+  - {fileID: 21300000, guid: 428b574eeb07cfa40b8e888a3a1cf347, type: 3}
+  - {fileID: 21300000, guid: e19080ecea9b87c4d805160019aa0327, type: 3}
+  - {fileID: 21300000, guid: 3bb555f9fac46cd4e83eae2779c94cf6, type: 3}
+  - {fileID: 21300000, guid: f554d6872fdf93748b4faea7614c7d94, type: 3}
+  - {fileID: 21300000, guid: 8b686a2898f00d1488c712bd8d65dcc7, type: 3}
+  - {fileID: 21300000, guid: 0ec9e22418e0a564b99713d0406a1371, type: 3}
+  - {fileID: 21300000, guid: 7c293d19c63bd7945a6fb105793e936f, type: 3}
+  - {fileID: 21300000, guid: ff2eacec11fd83d47b96e726451e501c, type: 3}
+  - {fileID: 21300000, guid: 69e2dc775bcbb484eac51e16c6a72589, type: 3}
+  - {fileID: 21300000, guid: 815a3195e769bb5439af78ee935736e0, type: 3}
+  - {fileID: 21300000, guid: 4ddbeb07d8528ce4bba781ca2b0f57a0, type: 3}
+  - {fileID: 21300000, guid: 04a6a634b6cb2e1469ac6c66c2f6f314, type: 3}
+  - {fileID: 21300000, guid: 11e7d7724ba261c4c990f95b987bbd45, type: 3}
+  - {fileID: 21300000, guid: 8806b5e74ad0eaa4b88cc39f46baf46a, type: 3}
+  - {fileID: 21300000, guid: c354fb065b5413b4a90532d40cd5227b, type: 3}
+  - {fileID: 21300000, guid: c33b7a401618c3c47a9f9e939ea759bf, type: 3}
+  - {fileID: 21300000, guid: 12e149be77253c041a9f3165c3795fb1, type: 3}
+  - {fileID: 21300000, guid: 7c58f36616d615a42ba6f899ed76817c, type: 3}
+  - {fileID: 21300000, guid: 990a81707b75aa844ace96700f95de47, type: 3}
+  - {fileID: 21300000, guid: 5dd83eb8af408d14e9b24846ca7f2121, type: 3}
+  - {fileID: 21300000, guid: 1e4df5ac907e9654c80b7d5985ac2206, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 10
+    hitStop: 0.035
+    hitStun: 0.2
+    knockbackX: 0.45
+    knockbackDepth: 0.1
+    cooldown: 0
+    priority: 10
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 0
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.75
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.5
+    depthTolerance: 0.75
+    cooldown: 1
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 0}

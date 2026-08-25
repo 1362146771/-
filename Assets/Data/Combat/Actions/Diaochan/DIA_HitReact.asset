@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: DIA_HitReact
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: HitReact
+  ownerId: Diaochan
+  displayName: HitReact
+  category: 7
+  animation: {fileID: 7400000, guid: eaa8a556ffd14074a993c99fdc429ed2, type: 2}
+  animatorState: HitReact
+  loop: 0
+  lockGroundPosition: 0
+  framesPerSecond: 25.000002
+  frameCount: 14
+  startupEndFrame: 4
+  activeEndFrame: 9
+  recoveryEndFrame: 13
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes: []
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: de641ae3a081ad54eb7d13837128d9c5, type: 3}
+  - {fileID: 21300000, guid: b756106ada21a194f9a007f7a8e0ee74, type: 3}
+  - {fileID: 21300000, guid: 07d9d424b6b9db44c81e53b70d2b2b9f, type: 3}
+  - {fileID: 21300000, guid: 6056f41b3f2b9bd489ed4f7cc5514b2f, type: 3}
+  - {fileID: 21300000, guid: f3ed15c7c713e2548ab024555c7da84d, type: 3}
+  - {fileID: 21300000, guid: c310baaec7c541b4694e035de9634337, type: 3}
+  - {fileID: 21300000, guid: a43ff803ff3cea2438fd989220acb104, type: 3}
+  - {fileID: 21300000, guid: b534a26a10648f143aaf4fb250592bdc, type: 3}
+  - {fileID: 21300000, guid: 10af47db675616448acfc480cec1916c, type: 3}
+  - {fileID: 21300000, guid: 22eb0577e9036a1428bf4f43b56a0b39, type: 3}
+  - {fileID: 21300000, guid: d0c00be2229db78479b9dbd30d20b6aa, type: 3}
+  - {fileID: 21300000, guid: 9087525883f299f47a6841553b1c7d54, type: 3}
+  - {fileID: 21300000, guid: e71e7abb86e7e2948a2810ba6031ad01, type: 3}
+  - {fileID: 21300000, guid: e71e7abb86e7e2948a2810ba6031ad01, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 10
+    hitStop: 0.035
+    hitStun: 0.2
+    knockbackX: 0.45
+    knockbackDepth: 0.1
+    cooldown: 0
+    priority: 10
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 0
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.75
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.54
+      retreatDistance: 0.45
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.64
+      retreatDistance: 0.7
+  combo: []
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.5
+    depthTolerance: 0.75
+    cooldown: 1
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 0}

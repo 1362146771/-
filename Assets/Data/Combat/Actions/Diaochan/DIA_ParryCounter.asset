@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: DIA_ParryCounter(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: ParryCounter
+  ownerId: Diaochan
+  displayName: ParryCounter
+  category: 3
+  animation: {fileID: 7400000, guid: 11a9e6e1e5ce0ea458d6a22017c9135d, type: 2}
+  animatorState: ParryCounter
+  loop: 0
+  lockGroundPosition: 1
+  framesPerSecond: 16.715544
+  frameCount: 19
+  startupEndFrame: 1
+  activeEndFrame: 12
+  recoveryEndFrame: 18
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0.11111111, y: 1.1527778}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 1
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -2.3472223, y: 0.055555556}
+    - {x: 1.9861112, y: 0.18055555}
+    - {x: 2.0138888, y: 3}
+    - {x: 0.15277778, y: 3.0972223}
+  - frame: 5
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -1.8888888, y: 0.125}
+    - {x: 3.0277777, y: 0.06944445}
+    - {x: 3.0277777, y: 3.4583333}
+    - {x: -0.25, y: 3.4583333}
+  - frame: 9
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -1.8888888, y: 0.125}
+    - {x: 3.0277777, y: 0.06944445}
+    - {x: 3.0277777, y: 3.4583333}
+    - {x: -0.25, y: 3.4583333}
+  - frame: 12
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -1.3194444, y: 0.2777778}
+    - {x: 1.7777778, y: 0.33333334}
+    - {x: 1.8611112, y: 4.361111}
+    - {x: -1.2222222, y: 4.3472223}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 60c70d404429aee489c0ec5c7aada97c, type: 3}
+  - {fileID: 21300000, guid: e3e480272fdab02438bbd2ab6681d12a, type: 3}
+  - {fileID: 21300000, guid: 59ec461280bf6a04db8e6f39a9ca45eb, type: 3}
+  - {fileID: 21300000, guid: c03f7ac03d8d92847be4f3ded7f38642, type: 3}
+  - {fileID: 21300000, guid: 6a7e39149570b1c49a0cbfbf36343143, type: 3}
+  - {fileID: 21300000, guid: 842f37853d0653c448bab147df82a5c7, type: 3}
+  - {fileID: 21300000, guid: c2e914916985c44448ab5ff5d707b12d, type: 3}
+  - {fileID: 21300000, guid: 4e6733188288d984b99c67271eb4e2ce, type: 3}
+  - {fileID: 21300000, guid: a5957907a6f708f4d814efc8d4a8707c, type: 3}
+  - {fileID: 21300000, guid: 8ffdc57deb62ff04c83ac07a5b93cd7e, type: 3}
+  - {fileID: 21300000, guid: fdf50e2321c480b4d9ab8f261626cf63, type: 3}
+  - {fileID: 21300000, guid: ca76b2b124f46f049a7cb804bc9db5de, type: 3}
+  - {fileID: 21300000, guid: d3c4d7f6c2318e64caf4ae4e1d5aa7cf, type: 3}
+  - {fileID: 21300000, guid: e6349ce73814e774795d2c6ca98810e4, type: 3}
+  - {fileID: 21300000, guid: fef5079871d490a46b1643b48ed09aad, type: 3}
+  - {fileID: 21300000, guid: 9db9b78b8d0453b44ab3ae42af354e96, type: 3}
+  - {fileID: 21300000, guid: 1e77dc239c66e534692c3264d04f93eb, type: 3}
+  - {fileID: 21300000, guid: 0490be897c5964a45a11d4aaf62e2c23, type: 3}
+  - {fileID: 21300000, guid: 0490be897c5964a45a11d4aaf62e2c23, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 20
+    hitStop: 0.04
+    hitStun: 0.2
+    knockbackX: 1.05
+    knockbackDepth: 0.08
+    cooldown: 0
+    priority: 50
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 2
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.78
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.55
+    depthTolerance: 0.78
+    cooldown: 0
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 11400000, guid: 693a23942b66c4e40b47be6d82fd15e9, type: 2}

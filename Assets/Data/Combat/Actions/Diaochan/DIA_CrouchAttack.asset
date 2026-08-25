@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: DIA_CrouchAttack(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: CrouchAttack
+  ownerId: Diaochan
+  displayName: CrouchAttack
+  category: 1
+  animation: {fileID: 7400000, guid: 45a9264b069dbc94bbc17d8af2cccb15, type: 2}
+  animatorState: CrouchAttack
+  loop: 0
+  lockGroundPosition: 0
+  framesPerSecond: 12.6050415
+  frameCount: 5
+  startupEndFrame: 0
+  activeEndFrame: 3
+  recoveryEndFrame: 4
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0.31944445, y: 0.8888889}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 0
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -0.45833334, y: -0.2638889}
+    - {x: 4.1944447, y: -0.19444445}
+    - {x: 2.8472223, y: 1.8333334}
+    - {x: 2.1388888, y: 0.9027778}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 5ee6ddaf66a18534c8605b8df232d4a1, type: 3}
+  - {fileID: 21300000, guid: 0f91911a7bab71f45a2529d451b83b79, type: 3}
+  - {fileID: 21300000, guid: e683fa9503688c04c8c99f5bbb02b4d6, type: 3}
+  - {fileID: 21300000, guid: ef6a744c253992d4693c76eff1df1ba2, type: 3}
+  - {fileID: 21300000, guid: ef6a744c253992d4693c76eff1df1ba2, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 5
+    hitStop: 0.035
+    hitStun: 0.2
+    knockbackX: 0.45
+    knockbackDepth: 0.1
+    cooldown: 0
+    priority: 10
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 2
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.75
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.5
+    depthTolerance: 0.75
+    cooldown: 1
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 0}

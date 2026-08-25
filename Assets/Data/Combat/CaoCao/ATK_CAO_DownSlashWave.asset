@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a622047cb874b42b6852dc312d331c, type: 3}
+  m_Name: ATK_CAO_DownSlashWave
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.AttackData
+  actionId: DownSlashWave
+  animationState: DownSlashWave
+  priority: 30
+  startup: 0.22
+  active: 0.22
+  recovery: 0.22
+  cooldown: 1.2
+  damage: 22
+  rangeX: 4.4
+  rangeDepth: 0.88
+  knockbackX: 0.9
+  knockbackDepth: 0.1
+  hitStop: 0.045
+  forwardMove: 0
+  lockGroundPosition: 1
+  visualOffset: {x: 0, y: 0}

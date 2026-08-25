@@ -1,0 +1,14 @@
+{
+  "provider": "OpenAI built-in image_gen",
+  "date": "2026-08-24",
+  "use_case": "historical-scene",
+  "original": true,
+  "downloaded_game_art": false,
+  "assets": [
+    {"file": "fortress_gate_approach.png", "source_output": "exec-82f8b8e8-fa50-4713-ab27-282e0288d9a9.png", "role": "Stage Start / Encounter 01"},
+    {"file": "fortress_wall_walkway.png", "source_output": "exec-a0f6f802-a296-4f10-9018-08f723bce09d.png", "role": "Encounter 02"},
+    {"file": "fortress_command_courtyard.png", "source_output": "exec-59c8c100-210c-470b-ab55-e3647464200a.png", "role": "Preserved previous Encounter 03 source"},
+    {"file": "cao_cao_storm_boss_arena.png", "source_output": "exec-8501a991-2680-4338-9799-4e2a02cec1ac.png", "role": "Encounter 03 / Cao Cao Boss Arena"}
+  ],
+  "constraints": "Original late-1990s Three Kingdoms-era arcade pixel-art environment; broad unobstructed belt floor; inaccessible architecture clearly behind boundaries; no characters, UI, logos, modern objects or copied game screenshots."
+}

@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: CAO_Skill
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: Skill
+  ownerId: CaoCao
+  displayName: Skill
+  category: 3
+  animation: {fileID: 7400000, guid: a2319758fc06ff0428bbc3e3a628d833, type: 2}
+  animatorState: Skill
+  loop: 0
+  lockGroundPosition: 1
+  framesPerSecond: 10
+  frameCount: 10
+  startupEndFrame: 2
+  activeEndFrame: 6
+  recoveryEndFrame: 9
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 2
+    role: 2
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 3.6959999, y: 0.25}
+    - {x: 3.6959999, y: 1.496}
+    - {x: 0.35, y: 1.7}
+  - frame: 3
+    role: 2
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 3.9479997, y: 0.25}
+    - {x: 3.9479997, y: 1.598}
+    - {x: 0.35, y: 1.7}
+  - frame: 4
+    role: 2
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 4.2, y: 0.25}
+    - {x: 4.2, y: 1.7}
+    - {x: 0.35, y: 1.7}
+  - frame: 5
+    role: 2
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 3.9479997, y: 0.25}
+    - {x: 3.9479997, y: 1.598}
+    - {x: 0.35, y: 1.7}
+  - frame: 6
+    role: 2
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 3.6959999, y: 0.25}
+    - {x: 3.6959999, y: 1.496}
+    - {x: 0.35, y: 1.7}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: a6b2436d246bcf045aeab14624f1e31f, type: 3}
+  - {fileID: 21300000, guid: 1f42a565ebde33d47a38e2155e526888, type: 3}
+  - {fileID: 21300000, guid: 3b5e2d0d07cb7c645a212b881a973f39, type: 3}
+  - {fileID: 21300000, guid: 0e1a1d72e8480e749ae55c61d8abc38e, type: 3}
+  - {fileID: 21300000, guid: 3e710f833c1bc294886c1bad10b12e9d, type: 3}
+  - {fileID: 21300000, guid: 850dd06246ddfd54390e5ad348c0723d, type: 3}
+  - {fileID: 21300000, guid: 533e08a02fed2804591b13bf2a5ac169, type: 3}
+  - {fileID: 21300000, guid: 9dec6a85736c264479b228ab92d757d5, type: 3}
+  - {fileID: 21300000, guid: d366c2f784c5f0b43a3720f915b6a220, type: 3}
+  - {fileID: 21300000, guid: 6fb4e940383f1eb4ba42791716f3ae6f, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 26
+    hitStop: 0.045
+    hitStun: 0.2
+    knockbackX: 1
+    knockbackDepth: 0.1
+    cooldown: 1.8
+    priority: 30
+    invulnerability: 0
+    superArmor: 1
+    hitPolicy: 0
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.95
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 1
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 4.2
+    depthTolerance: 0.95
+    cooldown: 1.8
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 11400000, guid: 4620ec4f05e4c0449823264462ea6e54, type: 2}

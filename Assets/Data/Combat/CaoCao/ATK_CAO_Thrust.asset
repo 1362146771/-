@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a622047cb874b42b6852dc312d331c, type: 3}
+  m_Name: ATK_CAO_Thrust
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.AttackData
+  actionId: Thrust
+  animationState: Thrust
+  priority: 30
+  startup: 0.22
+  active: 0.18
+  recovery: 0.15
+  cooldown: 0.45
+  damage: 14
+  rangeX: 2.7
+  rangeDepth: 0.7
+  knockbackX: 0.65
+  knockbackDepth: 0.1
+  hitStop: 0.045
+  forwardMove: 0.45
+  lockGroundPosition: 0
+  visualOffset: {x: 0, y: 0}

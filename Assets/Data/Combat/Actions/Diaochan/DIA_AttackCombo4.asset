@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: DIA_AttackCombo4(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: AttackCombo4
+  ownerId: Diaochan
+  displayName: AttackCombo4
+  category: 1
+  animation: {fileID: 7400000, guid: 5b37207ef42ec6249a33a9821113e03a, type: 2}
+  animatorState: AttackCombo4
+  loop: 0
+  lockGroundPosition: 0
+  framesPerSecond: 16.71554
+  frameCount: 25
+  startupEndFrame: 2
+  activeEndFrame: 19
+  recoveryEndFrame: 24
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: -0.3472222, y: 1.7083334}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 10
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -0.41666666, y: 0.041666668}
+    - {x: 3.6666667, y: 1.4444444}
+    - {x: 2.5, y: 3.7638888}
+    - {x: -1.25, y: 2.375}
+  - frame: 15
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -0.29166666, y: -0.30555555}
+    - {x: 3.0972223, y: 0.16666667}
+    - {x: 2.3194444, y: 4.25}
+    - {x: -0.8888889, y: 3.8194444}
+  - frame: 2
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.9722222, y: 2.2638888}
+    - {x: 4.0555553, y: 0.6805556}
+    - {x: 3.1111112, y: 3.1666667}
+    - {x: -0.4722222, y: 3.8472223}
+  - frame: 6
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -2.6944444, y: 1.1944444}
+    - {x: 4.0416665, y: 1.2222222}
+    - {x: 3.4444444, y: 2.2777777}
+    - {x: -2.2916667, y: 2.4027777}
+  - frame: 19
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: -0.29166666, y: -0.30555555}
+    - {x: 3.5972223, y: 0.43055555}
+    - {x: 2.8055556, y: 4.4305553}
+    - {x: -0.8888889, y: 3.8194444}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 3f3078d721dfc60439b4d5ecec048813, type: 3}
+  - {fileID: 21300000, guid: 6e2d92be3f682194eb6e526cd63fb29a, type: 3}
+  - {fileID: 21300000, guid: e6af674c5a2be634e9990d82c5ef2221, type: 3}
+  - {fileID: 21300000, guid: f686921899771cb44a79b86e8bdea160, type: 3}
+  - {fileID: 21300000, guid: 282045b7800d76540ac92ba489084b91, type: 3}
+  - {fileID: 21300000, guid: faee13826998299479efe67304857d51, type: 3}
+  - {fileID: 21300000, guid: dae6383ce7584c54d82b425fc10d3a07, type: 3}
+  - {fileID: 21300000, guid: 94808e5e2c55aa44594b73e71f03acef, type: 3}
+  - {fileID: 21300000, guid: 90a662f2e7173ff48a31ba90b26b9da5, type: 3}
+  - {fileID: 21300000, guid: 9e02cdada27f9044aabf26cc18abcb3b, type: 3}
+  - {fileID: 21300000, guid: c6e197cc368c5704295917289a8d68b6, type: 3}
+  - {fileID: 21300000, guid: 0185638df2c253341ba4a879f3456bcb, type: 3}
+  - {fileID: 21300000, guid: ccecbfc9ad176124eae19ff2877cb6e6, type: 3}
+  - {fileID: 21300000, guid: 7811647f379d9724e99e84621ead8733, type: 3}
+  - {fileID: 21300000, guid: fa343205e3fd9da449ef2606abab98e8, type: 3}
+  - {fileID: 21300000, guid: 997a734102c9489499984b6f72b48369, type: 3}
+  - {fileID: 21300000, guid: d34226b6abde6a343b439d817a12fbaa, type: 3}
+  - {fileID: 21300000, guid: 0c28e0f8125947f409cb6ebac2df74ca, type: 3}
+  - {fileID: 21300000, guid: c7e109d88b5f0934c9d81c394b494785, type: 3}
+  - {fileID: 21300000, guid: 4e10b656b0ef53641a2679f34dcbd040, type: 3}
+  - {fileID: 21300000, guid: baa45d5c63b3d1a4a8af0d5fa718a114, type: 3}
+  - {fileID: 21300000, guid: fba76876659d07446a5e94ecbbf9c171, type: 3}
+  - {fileID: 21300000, guid: c12f2d9afdad9e445ac05ec9fa247335, type: 3}
+  - {fileID: 21300000, guid: 02410c0203b8b5b4ea349986e13fad2f, type: 3}
+  - {fileID: 21300000, guid: 02410c0203b8b5b4ea349986e13fad2f, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 2
+    hitStop: 0.035
+    hitStun: 0.2
+    knockbackX: 0.45
+    knockbackDepth: 0.1
+    cooldown: 0
+    priority: 10
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 2
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.75
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo:
+  - input: J
+    startFrame: 0
+    hitStartFrame: 2
+    hitEndFrame: 4
+    comboWindowStart: 4
+    comboWindowEnd: 5
+    endFrame: 5
+    damage: 10
+    forwardMove: 0.1
+    knockback: 0.28
+  - input: J
+    startFrame: 5
+    hitStartFrame: 6
+    hitEndFrame: 8
+    comboWindowStart: 8
+    comboWindowEnd: 9
+    endFrame: 9
+    damage: 12
+    forwardMove: 0.12
+    knockback: 0.34
+  - input: J
+    startFrame: 9
+    hitStartFrame: 10
+    hitEndFrame: 12
+    comboWindowStart: 12
+    comboWindowEnd: 14
+    endFrame: 14
+    damage: 14
+    forwardMove: 0.16
+    knockback: 0.42
+  - input: J
+    startFrame: 14
+    hitStartFrame: 15
+    hitEndFrame: 19
+    comboWindowStart: 17
+    comboWindowEnd: 21
+    endFrame: 24
+    damage: 22
+    forwardMove: 0.24
+    knockback: 0.75
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.5
+    depthTolerance: 0.75
+    cooldown: 1
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 0}

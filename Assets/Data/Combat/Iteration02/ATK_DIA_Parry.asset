@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a05ac05d888bc4f8f3f20b97837760, type: 3}
+  m_Name: ATK_DIA_Parry
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ParryData
+  parryStartup: 0.08
+  parryWindowStart: 0.08
+  parryWindowEnd: 0.3
+  recovery: 0.28
+  cooldown: 1.5
+  counterAttack: {fileID: 11400000, guid: 693a23942b66c4e40b47be6d82fd15e9, type: 2}

@@ -1,0 +1,674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: CAO_Phase3Ultimate
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: Phase3Ultimate
+  ownerId: CaoCao
+  displayName: Phase3Ultimate
+  category: 3
+  animation: {fileID: 7400000, guid: 6425676401d820740b740762e881671d, type: 2}
+  animatorState: Phase3Ultimate
+  loop: 0
+  lockGroundPosition: 1
+  framesPerSecond: 11.111111
+  frameCount: 62
+  startupEndFrame: 11
+  activeEndFrame: 46
+  recoveryEndFrame: 61
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 11
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.979167, y: 0.25}
+    - {x: 5.979167, y: 1.4520833}
+    - {x: 0.35, y: 1.7}
+  - frame: 12
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.0375, y: 0.25}
+    - {x: 6.0375, y: 1.4662501}
+    - {x: 0.35, y: 1.7}
+  - frame: 13
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.0958333, y: 0.25}
+    - {x: 6.0958333, y: 1.4804167}
+    - {x: 0.35, y: 1.7}
+  - frame: 14
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.1541667, y: 0.25}
+    - {x: 6.1541667, y: 1.4945834}
+    - {x: 0.35, y: 1.7}
+  - frame: 15
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.2125, y: 0.25}
+    - {x: 6.2125, y: 1.5087501}
+    - {x: 0.35, y: 1.7}
+  - frame: 16
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.270833, y: 0.25}
+    - {x: 6.270833, y: 1.5229167}
+    - {x: 0.35, y: 1.7}
+  - frame: 17
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.3291664, y: 0.25}
+    - {x: 6.3291664, y: 1.5370834}
+    - {x: 0.35, y: 1.7}
+  - frame: 18
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.3875003, y: 0.25}
+    - {x: 6.3875003, y: 1.5512501}
+    - {x: 0.35, y: 1.7}
+  - frame: 19
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.445833, y: 0.25}
+    - {x: 6.445833, y: 1.5654167}
+    - {x: 0.35, y: 1.7}
+  - frame: 20
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.5041666, y: 0.25}
+    - {x: 6.5041666, y: 1.5795834}
+    - {x: 0.35, y: 1.7}
+  - frame: 21
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.5625, y: 0.25}
+    - {x: 6.5625, y: 1.59375}
+    - {x: 0.35, y: 1.7}
+  - frame: 22
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.6208334, y: 0.25}
+    - {x: 6.6208334, y: 1.6079167}
+    - {x: 0.35, y: 1.7}
+  - frame: 23
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.679167, y: 0.25}
+    - {x: 6.679167, y: 1.6220833}
+    - {x: 0.35, y: 1.7}
+  - frame: 24
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.7374997, y: 0.25}
+    - {x: 6.7374997, y: 1.63625}
+    - {x: 0.35, y: 1.7}
+  - frame: 25
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.7958336, y: 0.25}
+    - {x: 6.7958336, y: 1.6504167}
+    - {x: 0.35, y: 1.7}
+  - frame: 26
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.854167, y: 0.25}
+    - {x: 6.854167, y: 1.6645834}
+    - {x: 0.35, y: 1.7}
+  - frame: 27
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.9125, y: 0.25}
+    - {x: 6.9125, y: 1.67875}
+    - {x: 0.35, y: 1.7}
+  - frame: 28
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.9708333, y: 0.25}
+    - {x: 6.9708333, y: 1.6929168}
+    - {x: 0.35, y: 1.7}
+  - frame: 29
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.9708333, y: 0.25}
+    - {x: 6.9708333, y: 1.6929168}
+    - {x: 0.35, y: 1.7}
+  - frame: 30
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.9125, y: 0.25}
+    - {x: 6.9125, y: 1.67875}
+    - {x: 0.35, y: 1.7}
+  - frame: 31
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.854167, y: 0.25}
+    - {x: 6.854167, y: 1.6645834}
+    - {x: 0.35, y: 1.7}
+  - frame: 32
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.7958336, y: 0.25}
+    - {x: 6.7958336, y: 1.6504167}
+    - {x: 0.35, y: 1.7}
+  - frame: 33
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.7374997, y: 0.25}
+    - {x: 6.7374997, y: 1.63625}
+    - {x: 0.35, y: 1.7}
+  - frame: 34
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.679167, y: 0.25}
+    - {x: 6.679167, y: 1.6220833}
+    - {x: 0.35, y: 1.7}
+  - frame: 35
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.6208334, y: 0.25}
+    - {x: 6.6208334, y: 1.6079167}
+    - {x: 0.35, y: 1.7}
+  - frame: 36
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.5625, y: 0.25}
+    - {x: 6.5625, y: 1.59375}
+    - {x: 0.35, y: 1.7}
+  - frame: 37
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.5041666, y: 0.25}
+    - {x: 6.5041666, y: 1.5795834}
+    - {x: 0.35, y: 1.7}
+  - frame: 38
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.445833, y: 0.25}
+    - {x: 6.445833, y: 1.5654167}
+    - {x: 0.35, y: 1.7}
+  - frame: 39
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.3875003, y: 0.25}
+    - {x: 6.3875003, y: 1.5512501}
+    - {x: 0.35, y: 1.7}
+  - frame: 40
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.3291664, y: 0.25}
+    - {x: 6.3291664, y: 1.5370834}
+    - {x: 0.35, y: 1.7}
+  - frame: 41
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.270833, y: 0.25}
+    - {x: 6.270833, y: 1.5229167}
+    - {x: 0.35, y: 1.7}
+  - frame: 42
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.2125, y: 0.25}
+    - {x: 6.2125, y: 1.5087501}
+    - {x: 0.35, y: 1.7}
+  - frame: 43
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.1541667, y: 0.25}
+    - {x: 6.1541667, y: 1.4945834}
+    - {x: 0.35, y: 1.7}
+  - frame: 44
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.0958333, y: 0.25}
+    - {x: 6.0958333, y: 1.4804167}
+    - {x: 0.35, y: 1.7}
+  - frame: 45
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 6.0375, y: 0.25}
+    - {x: 6.0375, y: 1.4662501}
+    - {x: 0.35, y: 1.7}
+  - frame: 46
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.1, y: 0.15}
+    - {x: 5.979167, y: 0.25}
+    - {x: 5.979167, y: 1.4520833}
+    - {x: 0.35, y: 1.7}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 43fdb76484517bc47a422e42dfd85657, type: 3}
+  - {fileID: 21300000, guid: 6e734ccd8bb90634ab98271b6768c498, type: 3}
+  - {fileID: 21300000, guid: 413c2a3bb07ffcf48bfb194e78ebc2c5, type: 3}
+  - {fileID: 21300000, guid: 2b1a75d882810e94e939599da31f34e8, type: 3}
+  - {fileID: 21300000, guid: 18b1d96695e08ad4f9f14fab99b1eb41, type: 3}
+  - {fileID: 21300000, guid: d32282cdb01d2e646ac2bce77bb9234a, type: 3}
+  - {fileID: 21300000, guid: 606188cd2972dcc41b28a97a28ecab12, type: 3}
+  - {fileID: 21300000, guid: 4f0381ec0abe47a49888ccd516e6d3bb, type: 3}
+  - {fileID: 21300000, guid: aef3bd3ce3d6d3c4fb33de8bedd28a6b, type: 3}
+  - {fileID: 21300000, guid: c0743a1bdf4892341b5bcf7edfb04197, type: 3}
+  - {fileID: 21300000, guid: 70cd5c1d67f0dca459196462609db2bf, type: 3}
+  - {fileID: 21300000, guid: e6fb5876206b6164fa78855b2ccdbeac, type: 3}
+  - {fileID: 21300000, guid: 35e443639e4caaf4f9182ff26827deda, type: 3}
+  - {fileID: 21300000, guid: a45e4f336c1ae354d82c55ca0806eedd, type: 3}
+  - {fileID: 21300000, guid: 15ed674c1cadf6c4a8cd0e0482adf0e3, type: 3}
+  - {fileID: 21300000, guid: 63ecb44b5bd96244f8d95ce0b5c203b5, type: 3}
+  - {fileID: 21300000, guid: 42ae7033c32f1314f88b54e389a5ab71, type: 3}
+  - {fileID: 21300000, guid: 20ee60aa676fe1e45bfff28549b5fcd2, type: 3}
+  - {fileID: 21300000, guid: f78cf808b87d72947826b84c3eff0c1d, type: 3}
+  - {fileID: 21300000, guid: 80055e1dc35948147a68bac19ecbb2a4, type: 3}
+  - {fileID: 21300000, guid: c24ca1fc2d5506248b5b964011416ea7, type: 3}
+  - {fileID: 21300000, guid: c94f889455b6ca447b73f4d07978c57f, type: 3}
+  - {fileID: 21300000, guid: e53e8bcb4be99ed4aa75b4311a9cfc4e, type: 3}
+  - {fileID: 21300000, guid: ee68eaceb477e4b479534b1da3e12b66, type: 3}
+  - {fileID: 21300000, guid: 768c4c98d00f52349bd853dfabeaf246, type: 3}
+  - {fileID: 21300000, guid: a98770b9bb391864b85fcb5fadc19ead, type: 3}
+  - {fileID: 21300000, guid: 45623fd0642b45e408894d22f1700092, type: 3}
+  - {fileID: 21300000, guid: b0a3b2bc1b91ecb47a24325e4eebcc1d, type: 3}
+  - {fileID: 21300000, guid: 1a2781c374fd27245b83f1fcd096f6f9, type: 3}
+  - {fileID: 21300000, guid: 719a81bed48de7a479be787d926ffa98, type: 3}
+  - {fileID: 21300000, guid: 405f7e7fa470bc14f9cd8d4572b11384, type: 3}
+  - {fileID: 21300000, guid: 2740cc2dfe701ec42a44827c309f3c6f, type: 3}
+  - {fileID: 21300000, guid: a125a2057ef9c9a4abbde4230b275a0f, type: 3}
+  - {fileID: 21300000, guid: 0fd71cb043e1a6b4abe958b335a7859e, type: 3}
+  - {fileID: 21300000, guid: 5784563e67b78c944bc958636ebaa29d, type: 3}
+  - {fileID: 21300000, guid: cec859a580eac694aadb2232295e2d4f, type: 3}
+  - {fileID: 21300000, guid: bd1efad2188e0574d88d9590dbcab365, type: 3}
+  - {fileID: 21300000, guid: 7023e933ceec9ac4aafbdf71f211124d, type: 3}
+  - {fileID: 21300000, guid: c59d199159f70c245abffe04dc77a786, type: 3}
+  - {fileID: 21300000, guid: c168efca694fc584bb8229cb1740a5d5, type: 3}
+  - {fileID: 21300000, guid: 210e46e74e826504b982b9c1d5ae6c60, type: 3}
+  - {fileID: 21300000, guid: 0cd15f62b0226fc4f90fe09adf9789b0, type: 3}
+  - {fileID: 21300000, guid: 9d6e5db8a5f978b45bbc8bb1472a1514, type: 3}
+  - {fileID: 21300000, guid: 77b7288f9bba3584d8de478330c2f96e, type: 3}
+  - {fileID: 21300000, guid: eaaad3b15d112bd4bbd9c34ecc84f574, type: 3}
+  - {fileID: 21300000, guid: 4cdcfffe6211e674eb20362ae99bc08c, type: 3}
+  - {fileID: 21300000, guid: e74df18534cd9ca4195be2ef33a75a63, type: 3}
+  - {fileID: 21300000, guid: f51936b321d292f4b87bf1a25c4d8acf, type: 3}
+  - {fileID: 21300000, guid: 3873bd10e9845654aa2edb65f9ef94a0, type: 3}
+  - {fileID: 21300000, guid: 44ea013305696f14089114656bc6799c, type: 3}
+  - {fileID: 21300000, guid: cdfd67d8ebb765a40a9b7b36104125d1, type: 3}
+  - {fileID: 21300000, guid: ccfe46ff87992784e8e82de0e06b24c1, type: 3}
+  - {fileID: 21300000, guid: 9b813aa3b0cd9a84c9e47b86d80269c8, type: 3}
+  - {fileID: 21300000, guid: 5ad34f8ca44f37d4d8e02e7975564da3, type: 3}
+  - {fileID: 21300000, guid: 3b98a1ec8bc599d428bde19f08b8225a, type: 3}
+  - {fileID: 21300000, guid: ef672d650eb05a641be881f054190da7, type: 3}
+  - {fileID: 21300000, guid: 8627ffc9958850e4496343c59794046e, type: 3}
+  - {fileID: 21300000, guid: 48a5c08b567ddb045983e30861b173f5, type: 3}
+  - {fileID: 21300000, guid: f16c4e8e3f3d5034f960ce48122c0282, type: 3}
+  - {fileID: 21300000, guid: 03df9a00953d32d42a2b0c8b220d9eaa, type: 3}
+  - {fileID: 21300000, guid: 109757995091cca40b1818d610b6a95e, type: 3}
+  - {fileID: 21300000, guid: f2389ddcad992fb42b366d0f4ed27454, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 70
+    hitStop: 0.045
+    hitStun: 0.2
+    knockbackX: 1.9
+    knockbackDepth: 0.1
+    cooldown: 10
+    priority: 30
+    invulnerability: 0
+    superArmor: 1
+    hitPolicy: 0
+    repeatInterval: 0.15
+    broadPhaseDepth: 1.45
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 1
+    usageWeight: 0.28
+    minDistance: 0
+    maxDistance: 7
+    depthTolerance: 1.45
+    cooldown: 10
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 11400000, guid: a3c5faf49a2725a439e153c6079d1aba, type: 2}

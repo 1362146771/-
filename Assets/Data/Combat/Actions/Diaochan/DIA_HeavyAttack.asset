@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e29364dc26ea448b56b679dab63716, type: 3}
+  m_Name: DIA_HeavyAttack(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.ActionDefinition
+  dataVersion: 4
+  id: HeavyAttack
+  ownerId: Diaochan
+  displayName: HeavyAttack
+  category: 2
+  animation: {fileID: 7400000, guid: 3c039d34262f42645857cb03d840a7e4, type: 2}
+  animatorState: HeavyAttack
+  loop: 0
+  lockGroundPosition: 0
+  framesPerSecond: 10.90909
+  frameCount: 10
+  startupEndFrame: 3
+  activeEndFrame: 6
+  recoveryEndFrame: 9
+  footPoint: {x: 0, y: 0}
+  defaultHurtboxCenter: {x: 0, y: 1.1}
+  defaultHurtboxSize: {x: 0.8, y: 2.2}
+  frameShapes:
+  - frame: 5
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 3.2916667, y: -0.027777778}
+    - {x: 3.3055556, y: 4.361111}
+    - {x: 0.3611111, y: 4.361111}
+    - {x: 0.3888889, y: -0.06944445}
+  - frame: 6
+    role: 1
+    shapeType: 1
+    enabled: 1
+    overrideDamage: 0
+    damage: 10
+    center: {x: 1, y: 1}
+    size: {x: 1.5, y: 1.8}
+    points:
+    - {x: 0.6527778, y: 0.11111111}
+    - {x: 2.5416667, y: -0.1388889}
+    - {x: 3.0138888, y: 2.5833333}
+    - {x: 1.1666666, y: 2.75}
+  frameVisualOffsets: []
+  visualFrames:
+  - {fileID: 21300000, guid: 0e086c1184ede0844a8139207216217d, type: 3}
+  - {fileID: 21300000, guid: fb7f77bd65bead942b352bbfdbd92b3a, type: 3}
+  - {fileID: 21300000, guid: b893857a6e2cf2e4b8dd3846e1e410b3, type: 3}
+  - {fileID: 21300000, guid: 76137af5b5646b84e83a370e696adbbb, type: 3}
+  - {fileID: 21300000, guid: ccbc457bde8b1f8428a65ea3de4b0d84, type: 3}
+  - {fileID: 21300000, guid: c1531960bcad7ab4999a2a6201184fc9, type: 3}
+  - {fileID: 21300000, guid: eb71852ab4f3065418c0ffc4301a307a, type: 3}
+  - {fileID: 21300000, guid: f28adf2722f6d8947b427693115137b7, type: 3}
+  - {fileID: 21300000, guid: d17fdfd9a4b5c1c4bafdccb873625a1d, type: 3}
+  - {fileID: 21300000, guid: d17fdfd9a4b5c1c4bafdccb873625a1d, type: 3}
+  movement:
+    moveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    elevation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  combat:
+    damage: 10
+    hitStop: 0.035
+    hitStun: 0.2
+    knockbackX: 0.45
+    knockbackDepth: 0.1
+    cooldown: 0
+    priority: 10
+    invulnerability: 0
+    superArmor: 0
+    hitPolicy: 2
+    repeatInterval: 0.15
+    broadPhaseDepth: 0.75
+    impactType: 0
+  reaction:
+    light:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+    heavy:
+      animationActionId: HitReact
+      stunDuration: 0.34
+      retreatDistance: 0
+  combo: []
+  ai:
+    enabledForAI: 0
+    usageWeight: 1
+    minDistance: 0
+    maxDistance: 2.5
+    depthTolerance: 0.75
+    cooldown: 1
+    canUseWhileRunning: 0
+  weapon:
+    enabled: 0
+    socket: {x: 0, y: 0}
+    status: NOT IMPLEMENTED - data/preview only in V0.1
+  legacyAttackData: {fileID: 0}

@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-21T04:04:49.211840+00:00",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Continue the exact same original late-1990s Three Kingdoms arcade belt-scrolling background shown in the reference, same sunset sky, palette, pixel scale, side-view camera and lighting. Section three command stronghold finale: imposing ancient Chinese fortress gatehouse and command pavilion, layered dark timber galleries, massive stone walls, red war banners, two large braziers, ceremonial drum and a broad weathered final battle courtyard, distant mountain silhouettes, coherent left edge for horizontal scrolling. High-detail hand-painted pixel art. Environment only, no people, no characters, no text, no logo, no user interface, no modern objects.",
+  "negativePrompt": "characters, soldiers, people, UI, HUD, text, letters, logo, watermark, photorealistic, 3D render, modern building, vehicle, blurry, low detail",
+  "size": "1664*928",
+  "promptExtend": true,
+  "seed": null,
+  "requestId": "b6eefd66-9e5c-91e1-b271-cb04e5409957",
+  "assetPath": "Art/Backgrounds/Iteration02/fortress_command.png",
+  "referenceImages": [
+    "Art/Backgrounds/Iteration02/fortress_courtyard.png"
+  ]
+}

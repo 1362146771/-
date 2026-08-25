@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414f57525133d124cbeca64f89cc9868, type: 3}
+  m_Name: LIB_CaoCao
+  m_EditorClassIdentifier: ThreeKingdoms.Runtime::ThreeKingdoms.CharacterActionLibrary
+  ownerId: CaoCao
+  actions:
+  - {fileID: 11400000, guid: 6ed94654ec1bad0489a25850aa81f796, type: 2}
+  - {fileID: 11400000, guid: 95447cba2f998ae43870f6c4f8912c46, type: 2}
+  - {fileID: 11400000, guid: b0bd165939ea7fd4ba59cb37951b3b9f, type: 2}
+  - {fileID: 11400000, guid: bba9033c9aa126546bc1771c0439d906, type: 2}
+  - {fileID: 11400000, guid: 261ea8e4bfa09b34aac47a1a1b2bda3e, type: 2}
+  - {fileID: 11400000, guid: af17fdca8dbb4414ba8c525fb95273fe, type: 2}
+  - {fileID: 11400000, guid: 7f5f56c5a92671648b5620cea775f1f2, type: 2}
+  - {fileID: 11400000, guid: b5d7276d93e8c0e4080ce3d6e14695ac, type: 2}
+  - {fileID: 11400000, guid: 28c37c5738d522843936a5dfb1568f6a, type: 2}
+  - {fileID: 11400000, guid: 8209b25b40ae3e84f985975cc405e8c0, type: 2}
+  - {fileID: 11400000, guid: 8c2cada700c5b874b8982671bec261a1, type: 2}
+  - {fileID: 11400000, guid: 4af4b2ee87ca97d41848f40744ec59e3, type: 2}
+  - {fileID: 11400000, guid: 2cf7aaf65447a574485416254513c73b, type: 2}
+  - {fileID: 11400000, guid: defbe460491f95e4fab6508b17e03f63, type: 2}
+  - {fileID: 11400000, guid: 2970ffa3c9738a34ea6a8d7f552276a5, type: 2}
+  - {fileID: 11400000, guid: f53ed27a1ff2fba4daa62568220bcabe, type: 2}
+  - {fileID: 11400000, guid: 014edf9db2038b3419645a27c794c50a, type: 2}
+  - {fileID: 11400000, guid: 3f51b50c2fb4b9a409f4075f9a3558c4, type: 2}
+  - {fileID: 11400000, guid: 85f18d35dd495204b85e148cf88dbba1, type: 2}

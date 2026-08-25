@@ -1,0 +1,14 @@
+{
+  "name": "ThreeKingdoms.BattleEditor.Editor",
+  "rootNamespace": "ThreeKingdoms.EditorTools",
+  "references": ["ThreeKingdoms.Runtime"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
